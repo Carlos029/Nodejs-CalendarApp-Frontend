@@ -31,7 +31,12 @@ export const AppRouter = () => {
 
 
     if (checking) {
-        return (<h5>Cargando....</h5>)
+        return (
+            <div class="loading">
+                <div class="loading__text">Loading...</div>
+                <div class="loading__circle"></div>
+            </div>
+)
     }
 
 
